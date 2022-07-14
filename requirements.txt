@@ -1,0 +1,38 @@
+SQLite: version 3.39.0
+Import CSV to SQLite database:
+.mode csv
+.separator ,
+.import C:/sqlite/devices.csv devices
+.import C:/sqlite/device_interfaces.csv device_interfaces
+
+Python: version 3.9.5
+ 
+Powershell:
+set-executionpolicy remotesigned (Allow Windows PowerShell to Execute Scripts)
+
+Visual Studio Code:
+Activate a virtual environment in project folder using CMD:
+py -3 -m venv .venv
+.venv\scripts\activate
+code .
+
+Update pip: python -m pip install --upgrade pip
+Install Flask: python -m pip install flask
+Install pandas: pip install pandas
+Run app from command: python -m flask run
+
+------------URL------------
+Home:
+http://127.0.0.1:5000/
+
+/device/{colocation}:
+http://127.0.0.1:5000/device/sv15
+
+/interface/{type}/{status}:
+http://127.0.0.1:5000/interface/TenGigabit/down
+
+/device/{id}/tags:
+http://127.0.0.1:5000/device/62c59161d23599b198bf0fa0/tags
+
+/tags/{tag_id}/device:
+http://127.0.0.1:5000/tags/1/device

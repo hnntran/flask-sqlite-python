@@ -1,0 +1,9 @@
+id,device_name,public_ip_address,colocation,tags
+62c59161d23599b198bf0fa0,"Weaver, chestnut",23.47.223.86,sv15,dev
+62c5916f338621eece4aa765,American Virginia opossum,124.98.81.24,sv10,"dev, staging, prod"
+62c59176cfdaed0ba7588825,Lesser flamingo,86.190.244.69,dc13,dev
+62c5917de1c55948d35017d8,"Squirrel, indian giant",4.156.93.180,dc13,dev
+62c5918230111335164ffccb,Spotted hyena,60.102.136.117,sv10,staging
+62c59189dd43c90f89d5c9ff,"Stork, openbill",34.180.215.237,sv15,prod
+62c596b3b56fba9fd45b5223,African lion,1.195.67.90,dc13,"dev, staging, prod"
+62c596bb7e170043abf8e7f8,Mexican boa,152.148.158.88,dc15,prod
