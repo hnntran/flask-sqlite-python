@@ -36,3 +36,11 @@ http://127.0.0.1:5000/device/62c59161d23599b198bf0fa0/tags
 
 /tags/{tag_id}/device:
 http://127.0.0.1:5000/tags/1/device
+
+------------git------------
+Initialize the Git Repo: git init
+Add the files to Git index: git add -A
+Commit Added Files: git commit -m "first commit"
+Rename the master branch to main: git branch -M main
+Add new remote origin (in this case, GitHub): git remote add origin https://github.com/hnntran/flask-sqlite-python.git
+Push to GitHub: git push -u origin main
